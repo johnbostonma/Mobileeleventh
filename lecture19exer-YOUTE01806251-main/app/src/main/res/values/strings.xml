@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lecture17Exer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="guess">guess</string>
+    <string name="hint">guess a letter</string>
+    <string name="healthLevel">you have 0 live to live</string>
+    <string name="incorrectGuest">Incorrect Guesses:</string>
+    <string name="error">"Enter a letter here."</string>
+    <string name="wont">You won, The word was:</string>
+    <string name="wordPlaceHolder">Im the word</string>
+    <string name="newGame">New Game</string>
+    <string name="loose">Sorry, you lost. The word was:</string>
+
+</resources>

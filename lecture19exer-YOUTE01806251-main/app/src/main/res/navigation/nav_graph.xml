@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/letterEntry">
+
+    <fragment
+        android:id="@+id/gameOver"
+        android:name="com.example.lecture17exer.gameOver"
+        android:label="fragment_game_over"
+        tools:layout="@layout/fragment_game_over" >
+        <action
+            android:id="@+id/action_gameOver_to_letterEntry"
+            app:destination="@id/letterEntry" />
+        <argument
+            android:name="word"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/letterEntry"
+        android:name="com.example.lecture17exer.LetterEntry"
+        android:label="fragment_letter_entry"
+        tools:layout="@layout/fragment_letter_entry" >
+        <action
+            android:id="@+id/action_letterEntry_to_gameOver"
+            app:destination="@id/gameOver" />
+        <action
+            android:id="@+id/action_letterEntry_to_gamelost"
+            app:destination="@id/gamelost" />
+    </fragment>
+    <fragment
+        android:id="@+id/gamelost"
+        android:name="com.example.lecture17exer.gamelost"
+        android:label="fragment_gamelost"
+        tools:layout="@layout/fragment_gamelost" >
+        <action
+            android:id="@+id/action_gamelost_to_letterEntry"
+            app:destination="@id/letterEntry" />
+        <argument
+            android:name="word"
+            app:argType="string" />
+    </fragment>
+</navigation>

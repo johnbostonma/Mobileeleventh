@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lecture17Exer.iml" filepath="$PROJECT_DIR$/.idea/modules/Lecture17Exer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Lecture17Exer.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Lecture17Exer.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Lecture17Exer.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Lecture17Exer.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Lecture17Exer.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Lecture17Exer.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Lecture17Exer.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Lecture17Exer.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
